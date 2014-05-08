@@ -20,4 +20,10 @@ end
 VCR.configure do |c|
   c.cassette_library_dir = 'fixtures/vcr_cassettes'
   c.hook_into :webmock
+
+  c. before_record do |i|
+    request = i.request
+    request.headers["X-Trackertoken"] = '- none of yo bizzness' if request.headers["X-Trackertoken"]
+  end
+
 end
