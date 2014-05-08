@@ -1,5 +1,7 @@
 <ul>
   <% @pta.list_projects.each do |project| %>
-    <li><%= project %></li>
+    <li>
+      <a href="/projects/<%= @pta.project_id_lookup(project) %>"><%= project %></a>
+    </li>
   <% end %>
 </ul>

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
   root 'dashboard#index'
-  get '/projects' => 'projects#index'
 
+  resources :projects
 end
