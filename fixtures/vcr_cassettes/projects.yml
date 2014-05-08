@@ -31,11 +31,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1778ac78502c4aec67b2ccdb08399714
+      - 47e9731781bb5ed3a788e108b6a52361
       X-Runtime:
-      - '0.237939'
+      - '0.261340'
       Date:
-      - Thu, 08 May 2014 00:02:37 GMT
+      - Thu, 08 May 2014 16:51:24 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -58,7 +58,7 @@ http_interactions:
             "id": 1029432,
             "kind": "project",
             "name": "EmilyPlatzer",
-            "version": 909,
+            "version": 922,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -396,6 +396,6 @@ http_interactions:
             "enable_following": true
           }
         ]
-    http_version:
-  recorded_at: Thu, 08 May 2014 00:02:38 GMT
+    http_version: 
+  recorded_at: Thu, 08 May 2014 16:51:24 GMT
 recorded_with: VCR 2.9.0
