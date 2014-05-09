@@ -31,11 +31,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e2e651a686338307fedf6fe1f0eae00b
+      - ff8074de0201d1712182311b0b212d2c
       X-Runtime:
-      - '0.292084'
+      - '0.269627'
       Date:
-      - Thu, 08 May 2014 20:48:30 GMT
+      - Fri, 09 May 2014 20:50:07 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -54,37 +54,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -114,6 +83,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -337,7 +337,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -397,7 +397,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:45 GMT
+  recorded_at: Fri, 09 May 2014 20:51:25 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -429,11 +429,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f048380a626e5d63ad63d93ec9b137cb
+      - 8d05030ab9d7114f690a781d73da952f
       X-Runtime:
-      - '0.255880'
+      - '0.241376'
       Date:
-      - Thu, 08 May 2014 20:49:44 GMT
+      - Fri, 09 May 2014 20:51:21 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -452,37 +452,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -512,6 +481,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -735,7 +735,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -795,7 +795,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:45 GMT
+  recorded_at: Fri, 09 May 2014 20:51:26 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -827,11 +827,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 600fb7d4a417cd173ea9e1f73ee47b9f
+      - bfd1299a1064f145ee3f87fd80518871
       X-Runtime:
-      - '0.266455'
+      - '0.256568'
       Date:
-      - Thu, 08 May 2014 20:48:31 GMT
+      - Fri, 09 May 2014 20:51:21 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -850,37 +850,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -910,6 +879,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -1133,7 +1133,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -1193,7 +1193,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:46 GMT
+  recorded_at: Fri, 09 May 2014 20:51:26 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -1225,11 +1225,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7187f5f9a6784b5ed67fb2e512d2550a
+      - bc55a3f36dac68f9bc6dec70a271fa6a
       X-Runtime:
-      - '0.256526'
+      - '0.247692'
       Date:
-      - Thu, 08 May 2014 20:49:45 GMT
+      - Fri, 09 May 2014 20:51:22 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1248,37 +1248,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -1308,6 +1277,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -1531,7 +1531,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -1591,7 +1591,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:47 GMT
+  recorded_at: Fri, 09 May 2014 20:51:27 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -1623,11 +1623,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - affa846b5657bd54809ac81481a30695
+      - 5025ca228f2865777d1e142a68e64b57
       X-Runtime:
-      - '0.267799'
+      - '0.254107'
       Date:
-      - Thu, 08 May 2014 20:49:45 GMT
+      - Fri, 09 May 2014 20:51:22 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1646,37 +1646,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -1706,6 +1675,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -1929,7 +1929,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -1989,7 +1989,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:47 GMT
+  recorded_at: Fri, 09 May 2014 20:51:27 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -2021,11 +2021,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9adc630e23af3e455f25d65b47c8a3f0
+      - 641e9da9b076dc420de735ef0473240a
       X-Runtime:
-      - '0.236012'
+      - '0.263071'
       Date:
-      - Thu, 08 May 2014 20:49:46 GMT
+      - Fri, 09 May 2014 20:51:23 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -2044,37 +2044,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -2104,6 +2073,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -2327,7 +2327,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -2387,7 +2387,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:47 GMT
+  recorded_at: Fri, 09 May 2014 20:51:28 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -2419,11 +2419,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 00aef1ce69e99e49fcf6d1b597cbfed1
+      - cb68d01c3b69de5062ddfc7dd54b9d4f
       X-Runtime:
-      - '0.244004'
+      - '0.273550'
       Date:
-      - Thu, 08 May 2014 20:49:46 GMT
+      - Fri, 09 May 2014 20:51:23 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -2442,37 +2442,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -2502,6 +2471,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -2725,7 +2725,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -2785,7 +2785,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:48 GMT
+  recorded_at: Fri, 09 May 2014 20:51:28 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -2817,11 +2817,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3855fe1b6ffc80c3af229148619fc424
+      - 0750c1f792826270ad778f9e59b91e0d
       X-Runtime:
-      - '0.233297'
+      - '0.225795'
       Date:
-      - Thu, 08 May 2014 20:49:47 GMT
+      - Fri, 09 May 2014 20:51:24 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -2840,37 +2840,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -2900,6 +2869,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -3123,7 +3123,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -3183,7 +3183,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:48 GMT
+  recorded_at: Fri, 09 May 2014 20:51:29 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -3215,11 +3215,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 215024a867f4e2c7eb9563a2a7353464
+      - 0e758eca0590d9e281d9f7ecc0db7c1f
       X-Runtime:
-      - '0.235576'
+      - '0.236039'
       Date:
-      - Thu, 08 May 2014 20:49:47 GMT
+      - Fri, 09 May 2014 20:51:24 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -3238,37 +3238,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -3298,6 +3267,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -3521,7 +3521,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -3581,7 +3581,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:49 GMT
+  recorded_at: Fri, 09 May 2014 20:51:29 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -3613,11 +3613,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e554b685d130bd2405d6c2a5955eba27
+      - 55b112399fb01c6e501d9caefeac8533
       X-Runtime:
-      - '0.231738'
+      - '0.236269'
       Date:
-      - Thu, 08 May 2014 20:49:48 GMT
+      - Fri, 09 May 2014 20:51:25 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -3636,37 +3636,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -3696,6 +3665,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -3919,7 +3919,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -3979,7 +3979,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:49 GMT
+  recorded_at: Fri, 09 May 2014 20:51:30 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -4011,11 +4011,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f81f67646fe57afc9b32bbe1e7cefae4
+      - f483adf059f73665e2d4d184a0821c39
       X-Runtime:
-      - '0.240770'
+      - '0.254466'
       Date:
-      - Thu, 08 May 2014 20:49:48 GMT
+      - Fri, 09 May 2014 20:51:25 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -4034,37 +4034,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -4094,6 +4063,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -4317,7 +4317,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -4377,7 +4377,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:50 GMT
+  recorded_at: Fri, 09 May 2014 20:51:30 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects
@@ -4409,11 +4409,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a88ae973b62a5849635b6e03e6c9990e
+      - a7831c4a54a8a93cdc935bf76255b398
       X-Runtime:
-      - '0.241073'
+      - '0.259012'
       Date:
-      - Thu, 08 May 2014 20:49:49 GMT
+      - Fri, 09 May 2014 20:51:25 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -4432,37 +4432,6 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
-          {
-            "id": 1075502,
-            "kind": "project",
-            "name": "Schneiders and Platzer's TrackerHub",
-            "version": 14,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:09:37Z",
-            "updated_at": "2014-05-07T19:48:02Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
           {
             "id": 1029432,
             "kind": "project",
@@ -4492,6 +4461,37 @@ http_interactions:
             "updated_at": "2014-03-04T20:06:10Z",
             "account_id": 622224,
             "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1075502,
+            "kind": "project",
+            "name": "Schneiders and Platzer's TrackerHub",
+            "version": 32,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:09:37Z",
+            "updated_at": "2014-05-07T19:48:02Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
             "enable_following": true
           },
           {
@@ -4715,7 +4715,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2379,
+            "version": 2384,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -4775,5 +4775,5 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 20:49:51 GMT
+  recorded_at: Fri, 09 May 2014 20:51:30 GMT
 recorded_with: VCR 2.9.0

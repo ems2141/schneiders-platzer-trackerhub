@@ -1,7 +1,16 @@
+<h1>Stories</h1>
+
 <ul>
   <% @pta.list_stories(@proj_id).each do |story| %>
     <li>
-      <%= story %>
+      <%= story[:name] %>
     </li>
   <% end %>
+</ul>
+<hr>
+<h1>Tracker Comments</h1>
+<ul>
+  <% @pta.list_stories_comments(@proj_id).each do |comment| %>
+  <li><%= comment %></li>
+    <% end %>
 </ul>

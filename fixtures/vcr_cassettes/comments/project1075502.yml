@@ -1,0 +1,950 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075502/stories/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - none of yo bizzness
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3592509de9d61aca95e3a99b7ee319f4
+      X-Runtime:
+      - '0.080412'
+      Date:
+      - Fri, 09 May 2014 19:56:48 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70885510,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:42:01Z",
+            "accepted_at": "2014-05-08T21:42:01Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view all of my projects",
+            "description": "Given I'm on the homepage\nWhen I click on \"View Projects\"\nI see a list of all projects\n\n---\nUse your own API token. Make sure you don't commit it (dotenv-rails). (https://www.pivotaltracker.com/help/api#Basics)",
+            "current_state": "accepted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885510",
+            "owner_ids": [
+              1256906
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256906
+          },
+          {
+            "kind": "story",
+            "id": 70885512,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:42:42Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "As a user, I can view all of the stories for a project",
+            "description": "Given I'm go to the homepage\nWhen I click on a project\nI see a list of all of that projects stories",
+            "current_state": "rejected",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885512",
+            "owner_ids": [
+              1256906
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256906
+          },
+          {
+            "kind": "story",
+            "id": 70885514,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:07:14Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view Tracker comments for a project",
+            "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
+            "current_state": "started",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885514",
+            "owner_ids": [
+              1256906
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256906
+          },
+          {
+            "kind": "story",
+            "id": 70885516,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:11:53Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
+            "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
+            "current_state": "unstarted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885516",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885518,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:11:54Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As a user, I can post a new GitHub comment for the a tracker commit comment (basic auth)",
+            "description": "Given I'm viewing a project\nAnd there is a commit comment\nWhen I click on \"Add Comment\"\nAnd I fill out the form\nThen I see my GitHub comment added to the commit in GitHub\nAnd displayed on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885518",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885520,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:11:54Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can authenticate with GitHub",
+            "description": "When I visit the homepage\nAnd click on \"Log in with GitHub\"\nThen I'm logged in with github\nAnd I see my username in the nav bar\n\nPlease use omniauth gem!\nhttps://github.com/intridea/omniauth",
+            "current_state": "unstarted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885520",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885522,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:11:54Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As an authenticated user, I can post a commit comment for my GitHub account",
+            "description": "Given I'm authenticated with GitHub\nAnd I'm viewing a project\nWhen I click on \"Add Comment\"\nAnd I fill out the Form\nThen I see my GitHub comment added to the commit created by my account\nAnd I see it on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885522",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 19:56:52 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075502/stories
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - none of yo bizzness
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c77ec8b2edbb8256bf1d74f841c42e38
+      X-Runtime:
+      - '0.031862'
+      Date:
+      - Fri, 09 May 2014 20:08:15 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70885510,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:42:01Z",
+            "accepted_at": "2014-05-08T21:42:01Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view all of my projects",
+            "description": "Given I'm on the homepage\nWhen I click on \"View Projects\"\nI see a list of all projects\n\n---\nUse your own API token. Make sure you don't commit it (dotenv-rails). (https://www.pivotaltracker.com/help/api#Basics)",
+            "current_state": "accepted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885510",
+            "owner_ids": [
+              1256906
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256906
+          },
+          {
+            "kind": "story",
+            "id": 70885512,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:42:42Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "As a user, I can view all of the stories for a project",
+            "description": "Given I'm go to the homepage\nWhen I click on a project\nI see a list of all of that projects stories",
+            "current_state": "rejected",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885512",
+            "owner_ids": [
+              1256906
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256906
+          },
+          {
+            "kind": "story",
+            "id": 70885514,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:07:14Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view Tracker comments for a project",
+            "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
+            "current_state": "started",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885514",
+            "owner_ids": [
+              1256906
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256906
+          },
+          {
+            "kind": "story",
+            "id": 70885516,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:11:53Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
+            "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
+            "current_state": "unstarted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885516",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885518,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:11:54Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As a user, I can post a new GitHub comment for the a tracker commit comment (basic auth)",
+            "description": "Given I'm viewing a project\nAnd there is a commit comment\nWhen I click on \"Add Comment\"\nAnd I fill out the form\nThen I see my GitHub comment added to the commit in GitHub\nAnd displayed on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885518",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885520,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:11:54Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can authenticate with GitHub",
+            "description": "When I visit the homepage\nAnd click on \"Log in with GitHub\"\nThen I'm logged in with github\nAnd I see my username in the nav bar\n\nPlease use omniauth gem!\nhttps://github.com/intridea/omniauth",
+            "current_state": "unstarted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885520",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885522,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:11:54Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As an authenticated user, I can post a commit comment for my GitHub account",
+            "description": "Given I'm authenticated with GitHub\nAnd I'm viewing a project\nWhen I click on \"Add Comment\"\nAnd I fill out the Form\nThen I see my GitHub comment added to the commit created by my account\nAnd I see it on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1308466,
+            "project_id": 1075502,
+            "url": "https://www.pivotaltracker.com/story/show/70885522",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 20:08:20 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075502/stories/70885510?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - none of yo bizzness
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b8cef9fba8788937b212e72e7ea34a6f
+      X-Runtime:
+      - '0.051897'
+      Date:
+      - Fri, 09 May 2014 20:07:02 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "comments": [
+            {
+              "kind": "comment",
+              "id": 68662228,
+              "story_id": 70885510,
+              "text": "This is a test comment on the first story",
+              "person_id": 534749,
+              "created_at": "2014-05-06T00:00:00Z",
+              "updated_at": "2014-05-07T19:11:53Z"
+            },
+            {
+              "kind": "comment",
+              "id": 68662230,
+              "story_id": 70885510,
+              "text": "This is a second test comment on the first story",
+              "person_id": 534749,
+              "created_at": "2014-05-06T00:00:00Z",
+              "updated_at": "2014-05-07T19:11:53Z"
+            },
+            {
+              "kind": "comment",
+              "id": 68665006,
+              "story_id": 70885510,
+              "text": "Commit by Ellie Schneiders\nhttps://github.com/ems2141/schneiders-platzer-trackerhub/commit/109540f5e6b025873c04d0b024486f59ad249b42\n\n[#70885510] Initial Commit\n\nTesting webhooks",
+              "person_id": 1256912,
+              "created_at": "2014-05-07T19:29:23Z",
+              "updated_at": "2014-05-07T19:29:23Z",
+              "commit_identifier": "109540f5e6b025873c04d0b024486f59ad249b42",
+              "commit_type": "github"
+            },
+            {
+              "kind": "comment",
+              "id": 68678630,
+              "story_id": 70885510,
+              "text": "Commit by EmilyPlatzer\nhttps://github.com/ems2141/schneiders-platzer-trackerhub/commit/4009b54919a2f808a286aa4b8a0b16df8c0e8932\n\n[#70885510] As a user, I can view all of my projects",
+              "person_id": 1256912,
+              "created_at": "2014-05-07T21:20:04Z",
+              "updated_at": "2014-05-07T21:20:04Z",
+              "commit_identifier": "4009b54919a2f808a286aa4b8a0b16df8c0e8932",
+              "commit_type": "github"
+            },
+            {
+              "kind": "comment",
+              "id": 68788830,
+              "story_id": 70885510,
+              "text": "No staging heroku\n",
+              "person_id": 1308466,
+              "created_at": "2014-05-08T21:20:27Z",
+              "updated_at": "2014-05-08T21:20:27Z"
+            }
+          ],
+          "id": 70885510
+        }
+    http_version: 
+  recorded_at: Fri, 09 May 2014 20:08:20 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075502/stories/70885512?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - none of yo bizzness
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1eb07d28f613ea934b6b91337ec4bf2d
+      X-Runtime:
+      - '0.257254'
+      Date:
+      - Fri, 09 May 2014 20:08:16 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "comments": [
+            {
+              "kind": "comment",
+              "id": 68786082,
+              "story_id": 70885512,
+              "text": "Commit by Emily Platzer\nhttps://github.com/ems2141/schneiders-platzer-trackerhub/commit/53f5fedae4cd5ecee131d6da1bf72d1aac07c533\n\n[#70885512] User can view all stories for a particular project\n\nSigned-off-by: Ellie Schneiders <ems2141@gmail.com>",
+              "person_id": 1256906,
+              "created_at": "2014-05-08T20:56:02Z",
+              "updated_at": "2014-05-08T20:56:02Z",
+              "commit_identifier": "53f5fedae4cd5ecee131d6da1bf72d1aac07c533",
+              "commit_type": "github"
+            },
+            {
+              "kind": "comment",
+              "id": 68788834,
+              "story_id": 70885512,
+              "text": "No staging heroku",
+              "person_id": 1308466,
+              "created_at": "2014-05-08T21:20:33Z",
+              "updated_at": "2014-05-08T21:20:33Z"
+            },
+            {
+              "kind": "comment",
+              "id": 68790906,
+              "story_id": 70885512,
+              "text": "No title \"Stories\". Please look at the mocks",
+              "person_id": 1308466,
+              "created_at": "2014-05-08T21:42:42Z",
+              "updated_at": "2014-05-08T21:42:42Z"
+            }
+          ],
+          "id": 70885512
+        }
+    http_version: 
+  recorded_at: Fri, 09 May 2014 20:08:20 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075502/stories/70885514?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - none of yo bizzness
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ecc773f469a392225df65dfd8f5a44e4
+      X-Runtime:
+      - '0.046818'
+      Date:
+      - Fri, 09 May 2014 20:08:16 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "comments": [
+            {
+              "kind": "comment",
+              "id": 68662232,
+              "story_id": 70885514,
+              "text": "This is a comment on the comment story",
+              "person_id": 534749,
+              "created_at": "2014-05-06T00:00:00Z",
+              "updated_at": "2014-05-07T19:11:53Z"
+            }
+          ],
+          "id": 70885514
+        }
+    http_version: 
+  recorded_at: Fri, 09 May 2014 20:08:21 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075502/stories/70885516?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - none of yo bizzness
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 74dcd6946b1b32c9613de5e40a5df780
+      X-Runtime:
+      - '0.042486'
+      Date:
+      - Fri, 09 May 2014 20:08:17 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "comments": [
+
+          ],
+          "id": 70885516
+        }
+    http_version: 
+  recorded_at: Fri, 09 May 2014 20:08:21 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075502/stories/70885518?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - none of yo bizzness
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9c82be1c8ad51ba8df95652717529c2c
+      X-Runtime:
+      - '0.042999'
+      Date:
+      - Fri, 09 May 2014 20:07:04 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "comments": [
+
+          ],
+          "id": 70885518
+        }
+    http_version: 
+  recorded_at: Fri, 09 May 2014 20:08:21 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075502/stories/70885520?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - none of yo bizzness
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 602d41fe5a97b867a56831c9478bac6d
+      X-Runtime:
+      - '0.051655'
+      Date:
+      - Fri, 09 May 2014 20:08:17 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "comments": [
+
+          ],
+          "id": 70885520
+        }
+    http_version: 
+  recorded_at: Fri, 09 May 2014 20:08:21 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075502/stories/70885522?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - none of yo bizzness
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '32'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 74a99c5ae59490790d74f18dbb82bb31
+      X-Runtime:
+      - '0.049555'
+      Date:
+      - Fri, 09 May 2014 20:07:04 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "comments": [
+
+          ],
+          "id": 70885522
+        }
+    http_version: 
+  recorded_at: Fri, 09 May 2014 20:08:22 GMT
+recorded_with: VCR 2.9.0
