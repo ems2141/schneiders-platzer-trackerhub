@@ -12,14 +12,7 @@ class PivotalTrackerApi
   end
 
   def list_projects
-    conn = Faraday.new(:url => 'https://www.pivotaltracker.com') do |faraday|
-      faraday.request :url_encoded # form-encode POST params
-      faraday.adapter Faraday.default_adapter # make requests with Net::HTTP
-    end
-    response = conn.get do |req|
-      req.url '/services/v5/projects'
-      req.headers['X-TrackerToken'] = @token
-    end
+    response = get('/services/v5/projects')
 
     project_list =[]
     project_data = JSON.parse(response.body)
@@ -30,14 +23,7 @@ class PivotalTrackerApi
   end
 
   def project_id_lookup(project_name)
-    conn = Faraday.new(:url => 'https://www.pivotaltracker.com') do |faraday|
-      faraday.request :url_encoded # form-encode POST params
-      faraday.adapter Faraday.default_adapter # make requests with Net::HTTP
-    end
-    response = conn.get do |req|
-      req.url '/services/v5/projects'
-      req.headers['X-TrackerToken'] = @token
-    end
+    response = get('/services/v5/projects')
 
     project_data = JSON.parse(response.body)
     project_data.each do |project|

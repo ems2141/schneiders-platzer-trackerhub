@@ -7,6 +7,34 @@ describe PivotalTrackerApi do
     @tracker = PivotalTrackerApi.new(ENV['PIVOTAL_TOKEN'])
   end
 
+  it "can list projects for a user('s api token)" do
+    expected_stories = [
+      "Schneiders and Platzer's TrackerHub",
+      "EmilyPlatzer",
+      "Luke Bartel",
+      "Herb App",
+      "bitter_cherry's Team CRUD",
+      "gSchoolScreenHeroRequests",
+      "test-repo",
+      "Emily's URL shortener",
+      "students.gschool.it",
+      "gSchoolMarch2014Curriculum",
+      "Paul W User Authentication"
+    ]
+
+    VCR.use_cassette("projects/project#{@project_id}") do
+      expect(@tracker.list_projects).to eq expected_stories
+    end
+  end
+
+  it 'can get retrieve a project id' do
+    expected_project_id = 1075502
+
+    VCR.use_cassette("project_id/project#{@project_id}") do
+      expect(@tracker.project_id_lookup("Schneiders and Platzer's TrackerHub")).to eq expected_project_id
+    end
+  end
+
   it 'can get a list of stories' do
     expected_stories = [
       {name: "Some name", id: 1234}
